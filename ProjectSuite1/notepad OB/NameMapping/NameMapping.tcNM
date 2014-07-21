@@ -1,0 +1,1057 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="child list"/>
+		<Node name="data">
+			<Node name="children">
+				<Node name="{ca183070-b9dc-48ee-a987-d8529bbc95e2}">
+					<Node name="children">
+						<Node name="{5aa3c52f-5859-46b0-b006-1699bbf4d5cd}">
+							<Node name="children">
+								<Node name="{0e372d80-51be-48dc-b2f3-72e564ee5528}">
+									<Node name="children">
+										<Node name="{357c75fa-c73b-4971-a3ed-16bfc4bbfe52}">
+											<Node name="children"/>
+											<Node name="properties">
+												<Node name="property0">
+													<Prp name="cookie" type="I" value="42"/>
+													<Prp name="name" type="S" value="WndClass"/>
+												</Node>
+												<Node name="property1">
+													<Prp name="cookie" type="I" value="43"/>
+													<Prp name="name" type="S" value="WndCaption"/>
+												</Node>
+											</Node>
+											<Prp name="name" type="S" value="btnNo"/>
+										</Node>
+										<Node name="{7a45d778-7727-42fc-9bbe-7bcb77673d57}">
+											<Node name="children"/>
+											<Node name="properties">
+												<Node name="property0">
+													<Prp name="cookie" type="I" value="11"/>
+													<Prp name="name" type="S" value="WndClass"/>
+												</Node>
+												<Node name="property1">
+													<Prp name="cookie" type="I" value="12"/>
+													<Prp name="name" type="S" value="WndCaption"/>
+												</Node>
+											</Node>
+											<Prp name="name" type="S" value="btnCancel"/>
+										</Node>
+										<Node name="{bd0d471e-75d7-49c9-b618-7605992808db}">
+											<Node name="children">
+												<Node name="{f028fb99-d41b-47f3-ae80-544ab69742d7}">
+													<Node name="children">
+														<Node name="{0c55e93d-7a7d-4c35-bb87-bead3db6cabd}">
+															<Node name="children"/>
+															<Node name="properties">
+																<Node name="property0">
+																	<Prp name="cookie" type="I" value="10"/>
+																	<Prp name="name" type="S" value="WndClass"/>
+																</Node>
+															</Node>
+															<Prp name="name" type="S" value="Edit"/>
+														</Node>
+													</Node>
+													<Node name="properties">
+														<Node name="property0">
+															<Prp name="cookie" type="I" value="9"/>
+															<Prp name="name" type="S" value="WndClass"/>
+														</Node>
+													</Node>
+													<Prp name="name" type="S" value="ComboBox"/>
+												</Node>
+											</Node>
+											<Node name="properties">
+												<Node name="property0">
+													<Prp name="cookie" type="I" value="8"/>
+													<Prp name="name" type="S" value="WndClass"/>
+												</Node>
+											</Node>
+											<Prp name="name" type="S" value="ComboBoxEx32"/>
+										</Node>
+									</Node>
+									<Node name="properties">
+										<Node name="property0">
+											<Prp name="cookie" type="I" value="6"/>
+											<Prp name="name" type="S" value="WndClass"/>
+										</Node>
+										<Node name="property1">
+											<Prp name="cookie" type="I" value="7"/>
+											<Prp name="name" type="S" value="WndCaption"/>
+										</Node>
+									</Node>
+									<Prp name="name" type="S" value="dlgSaveAs"/>
+								</Node>
+								<Node name="{a65b8fac-2fe2-43c2-b389-913e852053ec}">
+									<Node name="children">
+										<Node name="{6e2dd2ff-0b3e-4817-a17a-1733a2a54598}">
+											<Node name="children"/>
+											<Node name="properties">
+												<Node name="property0">
+													<Prp name="cookie" type="I" value="5"/>
+													<Prp name="name" type="S" value="WndClass"/>
+												</Node>
+											</Node>
+											<Prp name="name" type="S" value="Edit"/>
+										</Node>
+									</Node>
+									<Node name="properties">
+										<Node name="property0">
+											<Prp name="cookie" type="I" value="3"/>
+											<Prp name="name" type="S" value="WndClass"/>
+										</Node>
+										<Node name="property1">
+											<Prp name="cookie" type="I" value="4"/>
+											<Prp name="name" type="S" value="WndCaption"/>
+										</Node>
+									</Node>
+									<Prp name="name" type="S" value="wndNotepad"/>
+								</Node>
+								<Node name="{ee3cde67-c9a1-4236-9853-969630a6fbb9}">
+									<Node name="children"/>
+									<Node name="properties">
+										<Node name="property0">
+											<Prp name="cookie" type="I" value="17"/>
+											<Prp name="name" type="S" value="WndClass"/>
+										</Node>
+										<Node name="property1">
+											<Prp name="cookie" type="I" value="18"/>
+											<Prp name="name" type="S" value="WndCaption"/>
+										</Node>
+									</Node>
+									<Prp name="name" type="S" value="dlgOpen"/>
+								</Node>
+								<Node name="{f148bd16-7b9c-4741-886b-5f97d113c32e}">
+									<Node name="children">
+										<Node name="{d1a941ea-820e-44fe-aa61-330e9cf3ef3f}">
+											<Node name="children"/>
+											<Node name="properties">
+												<Node name="property0">
+													<Prp name="cookie" type="I" value="15"/>
+													<Prp name="name" type="S" value="WndClass"/>
+												</Node>
+												<Node name="property1">
+													<Prp name="cookie" type="I" value="16"/>
+													<Prp name="name" type="S" value="WndCaption"/>
+												</Node>
+											</Node>
+											<Prp name="name" type="S" value="btnNo"/>
+										</Node>
+									</Node>
+									<Node name="properties">
+										<Node name="property0">
+											<Prp name="cookie" type="I" value="13"/>
+											<Prp name="name" type="S" value="WndClass"/>
+										</Node>
+										<Node name="property1">
+											<Prp name="cookie" type="I" value="14"/>
+											<Prp name="name" type="S" value="WndCaption"/>
+										</Node>
+									</Node>
+									<Prp name="name" type="S" value="dlgNotepad"/>
+								</Node>
+							</Node>
+							<Node name="properties">
+								<Node name="property0">
+									<Prp name="cookie" type="I" value="2"/>
+									<Prp name="name" type="S" value="ProcessName"/>
+								</Node>
+							</Node>
+							<Prp name="name" type="S" value="notepad"/>
+						</Node>
+						<Node name="{788885f1-b1b0-4f06-9878-4966e5424341}">
+							<Node name="children">
+								<Node name="{33d073ea-cc44-4b13-8200-80d23aecfacb}">
+									<Node name="children">
+										<Node name="{a9fa0bdb-043e-42ca-81e6-2fcf547988bc}">
+											<Node name="children">
+												<Node name="{b6513202-432d-47a6-a8ef-ae25f5565637}">
+													<Node name="children"/>
+													<Node name="properties">
+														<Node name="property0">
+															<Prp name="cookie" type="I" value="28"/>
+															<Prp name="name" type="S" value="WndClass"/>
+														</Node>
+														<Node name="property1">
+															<Prp name="cookie" type="I" value="29"/>
+															<Prp name="name" type="S" value="WndCaption"/>
+														</Node>
+													</Node>
+													<Prp name="name" type="S" value="FolderView"/>
+												</Node>
+											</Node>
+											<Node name="properties">
+												<Node name="property0">
+													<Prp name="cookie" type="I" value="27"/>
+													<Prp name="name" type="S" value="WndClass"/>
+												</Node>
+											</Node>
+											<Prp name="name" type="S" value="SHELLDLL_DefView"/>
+										</Node>
+									</Node>
+									<Node name="properties">
+										<Node name="property0">
+											<Prp name="cookie" type="I" value="25"/>
+											<Prp name="name" type="S" value="WndClass"/>
+										</Node>
+										<Node name="property1">
+											<Prp name="cookie" type="I" value="26"/>
+											<Prp name="name" type="S" value="WndCaption"/>
+										</Node>
+									</Node>
+									<Prp name="name" type="S" value="wndCabinetWClass"/>
+								</Node>
+								<Node name="{356658b9-ba46-4d27-9f39-f621dde11e7d}">
+									<Node name="children">
+										<Node name="{e5c27d59-da05-43ce-a799-f112a7c30665}">
+											<Node name="children">
+												<Node name="{3d215066-a907-4808-b426-23eed374d7bc}">
+													<Node name="children">
+														<Node name="{b8629a82-6b1d-41f0-b0d3-4677fc6a3da1}">
+															<Node name="children"/>
+															<Node name="properties">
+																<Node name="property0">
+																	<Prp name="cookie" type="I" value="40"/>
+																	<Prp name="name" type="S" value="WndClass"/>
+																</Node>
+																<Node name="property1">
+																	<Prp name="cookie" type="I" value="41"/>
+																	<Prp name="name" type="S" value="WndCaption"/>
+																</Node>
+															</Node>
+															<Prp name="name" type="S" value="ToolbarWindow32"/>
+														</Node>
+													</Node>
+													<Node name="properties">
+														<Node name="property0">
+															<Prp name="cookie" type="I" value="38"/>
+															<Prp name="name" type="S" value="WndClass"/>
+														</Node>
+														<Node name="property1">
+															<Prp name="cookie" type="I" value="39"/>
+															<Prp name="name" type="S" value="WndCaption"/>
+														</Node>
+													</Node>
+													<Prp name="name" type="S" value="MSTaskSwWClass"/>
+												</Node>
+											</Node>
+											<Node name="properties">
+												<Node name="property0">
+													<Prp name="cookie" type="I" value="37"/>
+													<Prp name="name" type="S" value="WndClass"/>
+												</Node>
+											</Node>
+											<Prp name="name" type="S" value="ReBarWindow32"/>
+										</Node>
+									</Node>
+									<Node name="properties">
+										<Node name="property0">
+											<Prp name="cookie" type="I" value="36"/>
+											<Prp name="name" type="S" value="WndClass"/>
+										</Node>
+									</Node>
+									<Prp name="name" type="S" value="wndShell_TrayWnd"/>
+								</Node>
+								<Node name="{8967b664-59ed-4e8b-9f04-16e788662482}">
+									<Node name="children">
+										<Node name="{42c84d89-6e77-4542-9752-c674db002ecf}">
+											<Node name="children"/>
+											<Node name="properties">
+												<Node name="property0">
+													<Prp name="cookie" type="I" value="46"/>
+													<Prp name="name" type="S" value="WndClass"/>
+												</Node>
+												<Node name="property1">
+													<Prp name="cookie" type="I" value="47"/>
+													<Prp name="name" type="S" value="WndCaption"/>
+												</Node>
+											</Node>
+											<Prp name="name" type="S" value="btnYes"/>
+										</Node>
+									</Node>
+									<Node name="properties">
+										<Node name="property0">
+											<Prp name="cookie" type="I" value="44"/>
+											<Prp name="name" type="S" value="WndClass"/>
+										</Node>
+										<Node name="property1">
+											<Prp name="cookie" type="I" value="45"/>
+											<Prp name="name" type="S" value="WndCaption"/>
+										</Node>
+									</Node>
+									<Prp name="name" type="S" value="dlgConfirmFileDelete"/>
+								</Node>
+								<Node name="{9ab1fb51-b908-4973-89c4-b7d936900a63}">
+									<Node name="children">
+										<Node name="{d0aa8105-11bb-4139-9b3f-ff0d1b3e11f3}">
+											<Node name="children">
+												<Node name="{6dfacceb-f088-4138-8a5e-7b2ec691a8b6}">
+													<Node name="children"/>
+													<Node name="properties">
+														<Node name="property0">
+															<Prp name="cookie" type="I" value="34"/>
+															<Prp name="name" type="S" value="WndClass"/>
+														</Node>
+														<Node name="property1">
+															<Prp name="cookie" type="I" value="35"/>
+															<Prp name="name" type="S" value="WndCaption"/>
+														</Node>
+													</Node>
+													<Prp name="name" type="S" value="FolderView"/>
+												</Node>
+											</Node>
+											<Node name="properties">
+												<Node name="property0">
+													<Prp name="cookie" type="I" value="33"/>
+													<Prp name="name" type="S" value="WndClass"/>
+												</Node>
+											</Node>
+											<Prp name="name" type="S" value="SHELLDLL_DefView"/>
+										</Node>
+									</Node>
+									<Node name="properties">
+										<Node name="property0">
+											<Prp name="cookie" type="I" value="30"/>
+											<Prp name="name" type="S" value="WndClass"/>
+										</Node>
+										<Node name="property1">
+											<Prp name="cookie" type="I" value="31"/>
+											<Prp name="name" type="S" value="WndCaption"/>
+										</Node>
+										<Node name="property2">
+											<Prp name="cookie" type="I" value="32"/>
+											<Prp name="name" type="S" value="Index"/>
+										</Node>
+									</Node>
+									<Prp name="name" type="S" value="wndCabinetWClass1"/>
+								</Node>
+								<Node name="{a63f0c71-de41-41cc-a64f-76e6f35f8cf7}">
+									<Node name="children">
+										<Node name="{ac0a57ab-86ff-4a39-a6cf-a289647b4e30}">
+											<Node name="children">
+												<Node name="{cc40d7a6-7c6d-42e7-a7bd-47a25820ea40}">
+													<Node name="children"/>
+													<Node name="properties">
+														<Node name="property0">
+															<Prp name="cookie" type="I" value="56"/>
+															<Prp name="name" type="S" value="WndClass"/>
+														</Node>
+														<Node name="property1">
+															<Prp name="cookie" type="I" value="57"/>
+															<Prp name="name" type="S" value="WndCaption"/>
+														</Node>
+													</Node>
+													<Prp name="name" type="S" value="FolderView"/>
+												</Node>
+											</Node>
+											<Node name="properties">
+												<Node name="property0">
+													<Prp name="cookie" type="I" value="55"/>
+													<Prp name="name" type="S" value="WndClass"/>
+												</Node>
+											</Node>
+											<Prp name="name" type="S" value="SHELLDLL_DefView"/>
+										</Node>
+									</Node>
+									<Node name="properties">
+										<Node name="property0">
+											<Prp name="cookie" type="I" value="53"/>
+											<Prp name="name" type="S" value="WndClass"/>
+										</Node>
+										<Node name="property1">
+											<Prp name="cookie" type="I" value="54"/>
+											<Prp name="name" type="S" value="WndCaption"/>
+										</Node>
+									</Node>
+									<Prp name="name" type="S" value="wndExploreWClass1"/>
+								</Node>
+								<Node name="{a88272a3-ee6e-4f49-9882-2de8ed93fb69}">
+									<Node name="children">
+										<Node name="{c47900ef-7a4d-43b6-bfaa-d4fada32c845}">
+											<Node name="children">
+												<Node name="{f031ddbc-5ba4-4da1-a90a-74098060744f}">
+													<Node name="children"/>
+													<Node name="properties">
+														<Node name="property0">
+															<Prp name="cookie" type="I" value="23"/>
+															<Prp name="name" type="S" value="WndClass"/>
+														</Node>
+														<Node name="property1">
+															<Prp name="cookie" type="I" value="24"/>
+															<Prp name="name" type="S" value="WndCaption"/>
+														</Node>
+													</Node>
+													<Prp name="name" type="S" value="FolderView"/>
+												</Node>
+											</Node>
+											<Node name="properties">
+												<Node name="property0">
+													<Prp name="cookie" type="I" value="22"/>
+													<Prp name="name" type="S" value="WndClass"/>
+												</Node>
+											</Node>
+											<Prp name="name" type="S" value="SHELLDLL_DefView"/>
+										</Node>
+									</Node>
+									<Node name="properties">
+										<Node name="property0">
+											<Prp name="cookie" type="I" value="20"/>
+											<Prp name="name" type="S" value="WndClass"/>
+										</Node>
+										<Node name="property1">
+											<Prp name="cookie" type="I" value="21"/>
+											<Prp name="name" type="S" value="WndCaption"/>
+										</Node>
+									</Node>
+									<Prp name="name" type="S" value="wndProgman"/>
+								</Node>
+								<Node name="{e3b8d01e-bb35-46b9-81e3-9d468d1940ad}">
+									<Node name="children">
+										<Node name="{a27c8a3a-690a-4f92-b967-71243da3842d}">
+											<Node name="children">
+												<Node name="{02c9e437-5e37-437d-802c-1653ae4ceed3}">
+													<Node name="children"/>
+													<Node name="properties">
+														<Node name="property0">
+															<Prp name="cookie" type="I" value="51"/>
+															<Prp name="name" type="S" value="WndClass"/>
+														</Node>
+														<Node name="property1">
+															<Prp name="cookie" type="I" value="52"/>
+															<Prp name="name" type="S" value="WndCaption"/>
+														</Node>
+													</Node>
+													<Prp name="name" type="S" value="FolderView"/>
+												</Node>
+											</Node>
+											<Node name="properties">
+												<Node name="property0">
+													<Prp name="cookie" type="I" value="50"/>
+													<Prp name="name" type="S" value="WndClass"/>
+												</Node>
+											</Node>
+											<Prp name="name" type="S" value="SHELLDLL_DefView"/>
+										</Node>
+									</Node>
+									<Node name="properties">
+										<Node name="property0">
+											<Prp name="cookie" type="I" value="48"/>
+											<Prp name="name" type="S" value="WndClass"/>
+										</Node>
+										<Node name="property1">
+											<Prp name="cookie" type="I" value="49"/>
+											<Prp name="name" type="S" value="WndCaption"/>
+										</Node>
+									</Node>
+									<Prp name="name" type="S" value="wndExploreWClass"/>
+								</Node>
+							</Node>
+							<Node name="properties">
+								<Node name="property0">
+									<Prp name="cookie" type="I" value="19"/>
+									<Prp name="name" type="S" value="ProcessName"/>
+								</Node>
+							</Node>
+							<Prp name="name" type="S" value="Explorer"/>
+						</Node>
+					</Node>
+					<Node name="properties">
+						<Node name="property0">
+							<Prp name="cookie" type="I" value="0"/>
+							<Prp name="name" type="S" value="Name"/>
+						</Node>
+						<Node name="property1">
+							<Prp name="cookie" type="I" value="1"/>
+							<Prp name="name" type="S" value="Id"/>
+						</Node>
+					</Node>
+					<Prp name="name" type="S" value="Sys"/>
+				</Node>
+			</Node>
+			<Node name="logical nodes">
+				<Node name="explorer">
+					<Node name="dlgconfirmfiledelete">
+						<Node name="btnyes">
+							<Prp name="name" type="S" value="btnYes"/>
+							<Prp name="owner" type="S" value="{42C84D89-6E77-4542-9752-C674DB002ECF}"/>
+						</Node>
+						<Prp name="name" type="S" value="dlgConfirmFileDelete"/>
+						<Prp name="owner" type="S" value="{8967B664-59ED-4E8B-9F04-16E788662482}"/>
+					</Node>
+					<Node name="wndcabinetwclass">
+						<Node name="shelldll_defview">
+							<Node name="folderview">
+								<Prp name="name" type="S" value="FolderView"/>
+								<Prp name="owner" type="S" value="{B6513202-432D-47A6-A8EF-AE25F5565637}"/>
+							</Node>
+							<Prp name="name" type="S" value="SHELLDLL_DefView"/>
+							<Prp name="owner" type="S" value="{A9FA0BDB-043E-42CA-81E6-2FCF547988BC}"/>
+						</Node>
+						<Prp name="name" type="S" value="wndCabinetWClass"/>
+						<Prp name="owner" type="S" value="{33D073EA-CC44-4B13-8200-80D23AECFACB}"/>
+					</Node>
+					<Node name="wndcabinetwclass1">
+						<Node name="shelldll_defview">
+							<Node name="folderview">
+								<Prp name="name" type="S" value="FolderView"/>
+								<Prp name="owner" type="S" value="{6DFACCEB-F088-4138-8A5E-7B2EC691A8B6}"/>
+							</Node>
+							<Prp name="name" type="S" value="SHELLDLL_DefView"/>
+							<Prp name="owner" type="S" value="{D0AA8105-11BB-4139-9B3F-FF0D1B3E11F3}"/>
+						</Node>
+						<Prp name="name" type="S" value="wndCabinetWClass1"/>
+						<Prp name="owner" type="S" value="{9AB1FB51-B908-4973-89C4-B7D936900A63}"/>
+					</Node>
+					<Node name="wndexplorewclass">
+						<Node name="shelldll_defview">
+							<Node name="folderview">
+								<Prp name="name" type="S" value="FolderView"/>
+								<Prp name="owner" type="S" value="{02C9E437-5E37-437D-802C-1653AE4CEED3}"/>
+							</Node>
+							<Prp name="name" type="S" value="SHELLDLL_DefView"/>
+							<Prp name="owner" type="S" value="{A27C8A3A-690A-4F92-B967-71243DA3842D}"/>
+						</Node>
+						<Prp name="name" type="S" value="wndExploreWClass"/>
+						<Prp name="owner" type="S" value="{E3B8D01E-BB35-46B9-81E3-9D468D1940AD}"/>
+					</Node>
+					<Node name="wndexplorewclass1">
+						<Node name="shelldll_defview">
+							<Node name="folderview">
+								<Prp name="name" type="S" value="FolderView"/>
+								<Prp name="owner" type="S" value="{CC40D7A6-7C6D-42E7-A7BD-47A25820EA40}"/>
+							</Node>
+							<Prp name="name" type="S" value="SHELLDLL_DefView"/>
+							<Prp name="owner" type="S" value="{AC0A57AB-86FF-4A39-A6CF-A289647B4E30}"/>
+						</Node>
+						<Prp name="name" type="S" value="wndExploreWClass1"/>
+						<Prp name="owner" type="S" value="{A63F0C71-DE41-41CC-A64F-76E6F35F8CF7}"/>
+					</Node>
+					<Node name="wndprogman">
+						<Node name="shelldll_defview">
+							<Node name="folderview">
+								<Prp name="name" type="S" value="FolderView"/>
+								<Prp name="owner" type="S" value="{F031DDBC-5BA4-4DA1-A90A-74098060744F}"/>
+							</Node>
+							<Prp name="name" type="S" value="SHELLDLL_DefView"/>
+							<Prp name="owner" type="S" value="{C47900EF-7A4D-43B6-BFAA-D4FADA32C845}"/>
+						</Node>
+						<Prp name="name" type="S" value="wndProgman"/>
+						<Prp name="owner" type="S" value="{A88272A3-EE6E-4F49-9882-2DE8ED93FB69}"/>
+					</Node>
+					<Node name="wndshell_traywnd">
+						<Node name="rebarwindow32">
+							<Node name="mstaskswwclass">
+								<Node name="toolbarwindow32">
+									<Prp name="name" type="S" value="ToolbarWindow32"/>
+									<Prp name="owner" type="S" value="{B8629A82-6B1D-41F0-B0D3-4677FC6A3DA1}"/>
+								</Node>
+								<Prp name="name" type="S" value="MSTaskSwWClass"/>
+								<Prp name="owner" type="S" value="{3D215066-A907-4808-B426-23EED374D7BC}"/>
+							</Node>
+							<Prp name="name" type="S" value="ReBarWindow32"/>
+							<Prp name="owner" type="S" value="{E5C27D59-DA05-43CE-A799-F112A7C30665}"/>
+						</Node>
+						<Prp name="name" type="S" value="wndShell_TrayWnd"/>
+						<Prp name="owner" type="S" value="{356658B9-BA46-4D27-9F39-F621DDE11E7D}"/>
+					</Node>
+					<Prp name="name" type="S" value="Explorer"/>
+					<Prp name="owner" type="S" value="{788885F1-B1B0-4F06-9878-4966E5424341}"/>
+				</Node>
+				<Node name="notepad">
+					<Node name="dlgnotepad">
+						<Node name="btnno">
+							<Prp name="name" type="S" value="btnNo"/>
+							<Prp name="owner" type="S" value="{D1A941EA-820E-44FE-AA61-330E9CF3EF3F}"/>
+						</Node>
+						<Prp name="name" type="S" value="dlgNotepad"/>
+						<Prp name="owner" type="S" value="{F148BD16-7B9C-4741-886B-5F97D113C32E}"/>
+					</Node>
+					<Node name="dlgopen">
+						<Prp name="name" type="S" value="dlgOpen"/>
+						<Prp name="owner" type="S" value="{EE3CDE67-C9A1-4236-9853-969630A6FBB9}"/>
+					</Node>
+					<Node name="dlgsaveas">
+						<Node name="btncancel">
+							<Prp name="name" type="S" value="btnCancel"/>
+							<Prp name="owner" type="S" value="{7A45D778-7727-42FC-9BBE-7BCB77673D57}"/>
+						</Node>
+						<Node name="btnno">
+							<Prp name="name" type="S" value="btnNo"/>
+							<Prp name="owner" type="S" value="{357C75FA-C73B-4971-A3ED-16BFC4BBFE52}"/>
+						</Node>
+						<Node name="comboboxex32">
+							<Node name="combobox">
+								<Node name="edit">
+									<Prp name="name" type="S" value="Edit"/>
+									<Prp name="owner" type="S" value="{0C55E93D-7A7D-4C35-BB87-BEAD3DB6CABD}"/>
+								</Node>
+								<Prp name="name" type="S" value="ComboBox"/>
+								<Prp name="owner" type="S" value="{F028FB99-D41B-47F3-AE80-544AB69742D7}"/>
+							</Node>
+							<Prp name="name" type="S" value="ComboBoxEx32"/>
+							<Prp name="owner" type="S" value="{BD0D471E-75D7-49C9-B618-7605992808DB}"/>
+						</Node>
+						<Prp name="name" type="S" value="dlgSaveAs"/>
+						<Prp name="owner" type="S" value="{0E372D80-51BE-48DC-B2F3-72E564EE5528}"/>
+					</Node>
+					<Node name="wndnotepad">
+						<Node name="edit">
+							<Prp name="name" type="S" value="Edit"/>
+							<Prp name="owner" type="S" value="{6E2DD2FF-0B3E-4817-A17A-1733A2A54598}"/>
+						</Node>
+						<Prp name="name" type="S" value="wndNotepad"/>
+						<Prp name="owner" type="S" value="{A65B8FAC-2FE2-43C2-B389-913E852053EC}"/>
+					</Node>
+					<Prp name="name" type="S" value="notepad"/>
+					<Prp name="owner" type="S" value="{5AA3C52F-5859-46B0-B006-1699BBF4D5CD}"/>
+				</Node>
+				<Prp name="name" type="S" value="Aliases"/>
+				<Prp name="owner" type="S" value="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}"/>
+			</Node>
+			<Node name="properties"/>
+			<Node name="storages">
+				<Node name="child0">
+					<Node name="property0">
+						<Prp name="cookie" type="I" value="0"/>
+						<Prp name="local variable" type="S" value=""/>
+						<Prp name="property type" type="I" value="0"/>
+						<Prp name="type" type="I" value="5"/>
+						<Prp name="value" type="S" value="Sys"/>
+					</Node>
+					<Node name="property1">
+						<Prp name="cookie" type="I" value="1"/>
+						<Prp name="local variable" type="S" value=""/>
+						<Prp name="property type" type="I" value="0"/>
+						<Prp name="type" type="I" value="0"/>
+						<Prp name="value" type="I" value="-1"/>
+					</Node>
+					<Node name="property10">
+						<Prp name="cookie" type="I" value="10"/>
+						<Prp name="local variable" type="S" value=""/>
+						<Prp name="property type" type="I" value="0"/>
+						<Prp name="type" type="I" value="5"/>
+						<Prp name="value" type="S" value="Edit"/>
+					</Node>
+					<Node name="property11">
+						<Prp name="cookie" type="I" value="11"/>
+						<Prp name="local variable" type="S" value=""/>
+						<Prp name="property type" type="I" value="0"/>
+						<Prp name="type" type="I" value="5"/>
+						<Prp name="value" type="S" value="Button"/>
+					</Node>
+					<Node name="property12">
+						<Prp name="cookie" type="I" value="12"/>
+						<Prp name="local variable" type="S" value=""/>
+						<Prp name="property type" type="I" value="0"/>
+						<Prp name="type" type="I" value="5"/>
+						<Prp name="value" type="S" value="Cancel"/>
+					</Node>
+					<Node name="property13">
+						<Prp name="cookie" type="I" value="13"/>
+						<Prp name="local variable" type="S" value=""/>
+						<Prp name="property type" type="I" value="0"/>
+						<Prp name="type" type="I" value="5"/>
+						<Prp name="value" type="S" value="#32770"/>
+					</Node>
+					<Node name="property14">
+						<Prp name="cookie" type="I" value="14"/>
+						<Prp name="local variable" type="S" value=""/>
+						<Prp name="property type" type="I" value="0"/>
+						<Prp name="type" type="I" value="5"/>
+						<Prp name="value" type="S" value="Notepad"/>
+					</Node>
+					<Node name="property15">
+						<Prp name="cookie" type="I" value="15"/>
+						<Prp name="local variable" type="S" value=""/>
+						<Prp name="property type" type="I" value="0"/>
+						<Prp name="type" type="I" value="5"/>
+						<Prp name="value" type="S" value="Button"/>
+					</Node>
+					<Node name="property16">
+						<Prp name="cookie" type="I" value="16"/>
+						<Prp name="local variable" type="S" value=""/>
+						<Prp name="property type" type="I" value="0"/>
+						<Prp name="type" type="I" value="5"/>
+						<Prp name="value" type="S" value="&amp;No"/>
+					</Node>
+					<Node name="property17">
+						<Prp name="cookie" type="I" value="17"/>
+						<Prp name="local variable" type="S" value=""/>
+						<Prp name="property type" type="I" value="0"/>
+						<Prp name="type" type="I" value="5"/>
+						<Prp name="value" type="S" value="#32770"/>
+					</Node>
+					<Node name="property18">
+						<Prp name="cookie" type="I" value="18"/>
+						<Prp name="local variable" type="S" value=""/>
+						<Prp name="property type" type="I" value="0"/>
+						<Prp name="type" type="I" value="5"/>
+						<Prp name="value" type="S" value="Open"/>
+					</Node>
+					<Node name="property19">
+						<Prp name="cookie" type="I" value="19"/>
+						<Prp name="local variable" type="S" value=""/>
+						<Prp name="property type" type="I" value="0"/>
+						<Prp name="type" type="I" value="5"/>
+						<Prp name="value" type="S" value="Explorer"/>
+					</Node>
+					<Node name="property2">
+						<Prp name="cookie" type="I" value="2"/>
+						<Prp name="local variable" type="S" value=""/>
+						<Prp name="property type" type="I" value="0"/>
+						<Prp name="type" type="I" value="5"/>
+						<Prp name="value" type="S" value="notepad"/>
+					</Node>
+					<Node name="property20">
+						<Prp name="cookie" type="I" value="20"/>
+						<Prp name="local variable" type="S" value=""/>
+						<Prp name="property type" type="I" value="0"/>
+						<Prp name="type" type="I" value="5"/>
+						<Prp name="value" type="S" value="Progman"/>
+					</Node>
+					<Node name="property21">
+						<Prp name="cookie" type="I" value="21"/>
+						<Prp name="local variable" type="S" value=""/>
+						<Prp name="property type" type="I" value="0"/>
+						<Prp name="type" type="I" value="5"/>
+						<Prp name="value" type="S" value="Program Manager"/>
+					</Node>
+					<Node name="property22">
+						<Prp name="cookie" type="I" value="22"/>
+						<Prp name="local variable" type="S" value=""/>
+						<Prp name="property type" type="I" value="0"/>
+						<Prp name="type" type="I" value="5"/>
+						<Prp name="value" type="S" value="SHELLDLL_DefView"/>
+					</Node>
+					<Node name="property23">
+						<Prp name="cookie" type="I" value="23"/>
+						<Prp name="local variable" type="S" value=""/>
+						<Prp name="property type" type="I" value="0"/>
+						<Prp name="type" type="I" value="5"/>
+						<Prp name="value" type="S" value="SysListView32"/>
+					</Node>
+					<Node name="property24">
+						<Prp name="cookie" type="I" value="24"/>
+						<Prp name="local variable" type="S" value=""/>
+						<Prp name="property type" type="I" value="0"/>
+						<Prp name="type" type="I" value="5"/>
+						<Prp name="value" type="S" value="FolderView"/>
+					</Node>
+					<Node name="property25">
+						<Prp name="cookie" type="I" value="25"/>
+						<Prp name="local variable" type="S" value=""/>
+						<Prp name="property type" type="I" value="0"/>
+						<Prp name="type" type="I" value="5"/>
+						<Prp name="value" type="S" value="CabinetWClass"/>
+					</Node>
+					<Node name="property26">
+						<Prp name="cookie" type="I" value="26"/>
+						<Prp name="local variable" type="S" value=""/>
+						<Prp name="property type" type="I" value="0"/>
+						<Prp name="type" type="I" value="5"/>
+						<Prp name="value" type="S" value="My Computer"/>
+					</Node>
+					<Node name="property27">
+						<Prp name="cookie" type="I" value="27"/>
+						<Prp name="local variable" type="S" value=""/>
+						<Prp name="property type" type="I" value="0"/>
+						<Prp name="type" type="I" value="5"/>
+						<Prp name="value" type="S" value="SHELLDLL_DefView"/>
+					</Node>
+					<Node name="property28">
+						<Prp name="cookie" type="I" value="28"/>
+						<Prp name="local variable" type="S" value=""/>
+						<Prp name="property type" type="I" value="0"/>
+						<Prp name="type" type="I" value="5"/>
+						<Prp name="value" type="S" value="SysListView32"/>
+					</Node>
+					<Node name="property29">
+						<Prp name="cookie" type="I" value="29"/>
+						<Prp name="local variable" type="S" value=""/>
+						<Prp name="property type" type="I" value="0"/>
+						<Prp name="type" type="I" value="5"/>
+						<Prp name="value" type="S" value="FolderView"/>
+					</Node>
+					<Node name="property3">
+						<Prp name="cookie" type="I" value="3"/>
+						<Prp name="local variable" type="S" value=""/>
+						<Prp name="property type" type="I" value="0"/>
+						<Prp name="type" type="I" value="5"/>
+						<Prp name="value" type="S" value="Notepad"/>
+					</Node>
+					<Node name="property30">
+						<Prp name="cookie" type="I" value="30"/>
+						<Prp name="local variable" type="S" value=""/>
+						<Prp name="property type" type="I" value="0"/>
+						<Prp name="type" type="I" value="5"/>
+						<Prp name="value" type="S" value="CabinetWClass"/>
+					</Node>
+					<Node name="property31">
+						<Prp name="cookie" type="I" value="31"/>
+						<Prp name="local variable" type="S" value=""/>
+						<Prp name="property type" type="I" value="0"/>
+						<Prp name="type" type="I" value="5"/>
+						<Prp name="value" type="S" value="Local Disk (C:)"/>
+					</Node>
+					<Node name="property32">
+						<Prp name="cookie" type="I" value="32"/>
+						<Prp name="local variable" type="S" value=""/>
+						<Prp name="property type" type="I" value="0"/>
+						<Prp name="type" type="I" value="0"/>
+						<Prp name="value" type="I" value="1"/>
+					</Node>
+					<Node name="property33">
+						<Prp name="cookie" type="I" value="33"/>
+						<Prp name="local variable" type="S" value=""/>
+						<Prp name="property type" type="I" value="0"/>
+						<Prp name="type" type="I" value="5"/>
+						<Prp name="value" type="S" value="SHELLDLL_DefView"/>
+					</Node>
+					<Node name="property34">
+						<Prp name="cookie" type="I" value="34"/>
+						<Prp name="local variable" type="S" value=""/>
+						<Prp name="property type" type="I" value="0"/>
+						<Prp name="type" type="I" value="5"/>
+						<Prp name="value" type="S" value="SysListView32"/>
+					</Node>
+					<Node name="property35">
+						<Prp name="cookie" type="I" value="35"/>
+						<Prp name="local variable" type="S" value=""/>
+						<Prp name="property type" type="I" value="0"/>
+						<Prp name="type" type="I" value="5"/>
+						<Prp name="value" type="S" value="FolderView"/>
+					</Node>
+					<Node name="property36">
+						<Prp name="cookie" type="I" value="36"/>
+						<Prp name="local variable" type="S" value=""/>
+						<Prp name="property type" type="I" value="0"/>
+						<Prp name="type" type="I" value="5"/>
+						<Prp name="value" type="S" value="Shell_TrayWnd"/>
+					</Node>
+					<Node name="property37">
+						<Prp name="cookie" type="I" value="37"/>
+						<Prp name="local variable" type="S" value=""/>
+						<Prp name="property type" type="I" value="0"/>
+						<Prp name="type" type="I" value="5"/>
+						<Prp name="value" type="S" value="ReBarWindow32"/>
+					</Node>
+					<Node name="property38">
+						<Prp name="cookie" type="I" value="38"/>
+						<Prp name="local variable" type="S" value=""/>
+						<Prp name="property type" type="I" value="0"/>
+						<Prp name="type" type="I" value="5"/>
+						<Prp name="value" type="S" value="MSTaskSwWClass"/>
+					</Node>
+					<Node name="property39">
+						<Prp name="cookie" type="I" value="39"/>
+						<Prp name="local variable" type="S" value=""/>
+						<Prp name="property type" type="I" value="0"/>
+						<Prp name="type" type="I" value="5"/>
+						<Prp name="value" type="S" value="Running Applications"/>
+					</Node>
+					<Node name="property4">
+						<Prp name="cookie" type="I" value="4"/>
+						<Prp name="local variable" type="S" value=""/>
+						<Prp name="property type" type="I" value="0"/>
+						<Prp name="type" type="I" value="5"/>
+						<Prp name="value" type="S" value="*"/>
+					</Node>
+					<Node name="property40">
+						<Prp name="cookie" type="I" value="40"/>
+						<Prp name="local variable" type="S" value=""/>
+						<Prp name="property type" type="I" value="0"/>
+						<Prp name="type" type="I" value="5"/>
+						<Prp name="value" type="S" value="ToolbarWindow32"/>
+					</Node>
+					<Node name="property41">
+						<Prp name="cookie" type="I" value="41"/>
+						<Prp name="local variable" type="S" value=""/>
+						<Prp name="property type" type="I" value="0"/>
+						<Prp name="type" type="I" value="5"/>
+						<Prp name="value" type="S" value="Running Applications"/>
+					</Node>
+					<Node name="property42">
+						<Prp name="cookie" type="I" value="42"/>
+						<Prp name="local variable" type="S" value=""/>
+						<Prp name="property type" type="I" value="0"/>
+						<Prp name="type" type="I" value="5"/>
+						<Prp name="value" type="S" value="Button"/>
+					</Node>
+					<Node name="property43">
+						<Prp name="cookie" type="I" value="43"/>
+						<Prp name="local variable" type="S" value=""/>
+						<Prp name="property type" type="I" value="0"/>
+						<Prp name="type" type="I" value="5"/>
+						<Prp name="value" type="S" value="&amp;No"/>
+					</Node>
+					<Node name="property44">
+						<Prp name="cookie" type="I" value="44"/>
+						<Prp name="local variable" type="S" value=""/>
+						<Prp name="property type" type="I" value="0"/>
+						<Prp name="type" type="I" value="5"/>
+						<Prp name="value" type="S" value="#32770"/>
+					</Node>
+					<Node name="property45">
+						<Prp name="cookie" type="I" value="45"/>
+						<Prp name="local variable" type="S" value=""/>
+						<Prp name="property type" type="I" value="0"/>
+						<Prp name="type" type="I" value="5"/>
+						<Prp name="value" type="S" value="Confirm File Delete"/>
+					</Node>
+					<Node name="property46">
+						<Prp name="cookie" type="I" value="46"/>
+						<Prp name="local variable" type="S" value=""/>
+						<Prp name="property type" type="I" value="0"/>
+						<Prp name="type" type="I" value="5"/>
+						<Prp name="value" type="S" value="Button"/>
+					</Node>
+					<Node name="property47">
+						<Prp name="cookie" type="I" value="47"/>
+						<Prp name="local variable" type="S" value=""/>
+						<Prp name="property type" type="I" value="0"/>
+						<Prp name="type" type="I" value="5"/>
+						<Prp name="value" type="S" value="&amp;Yes"/>
+					</Node>
+					<Node name="property48">
+						<Prp name="cookie" type="I" value="48"/>
+						<Prp name="local variable" type="S" value=""/>
+						<Prp name="property type" type="I" value="0"/>
+						<Prp name="type" type="I" value="5"/>
+						<Prp name="value" type="S" value="ExploreWClass"/>
+					</Node>
+					<Node name="property49">
+						<Prp name="cookie" type="I" value="49"/>
+						<Prp name="local variable" type="S" value=""/>
+						<Prp name="property type" type="I" value="0"/>
+						<Prp name="type" type="I" value="5"/>
+						<Prp name="value" type="S" value="Local Disk (C:)"/>
+					</Node>
+					<Node name="property5">
+						<Prp name="cookie" type="I" value="5"/>
+						<Prp name="local variable" type="S" value=""/>
+						<Prp name="property type" type="I" value="0"/>
+						<Prp name="type" type="I" value="5"/>
+						<Prp name="value" type="S" value="Edit"/>
+					</Node>
+					<Node name="property50">
+						<Prp name="cookie" type="I" value="50"/>
+						<Prp name="local variable" type="S" value=""/>
+						<Prp name="property type" type="I" value="0"/>
+						<Prp name="type" type="I" value="5"/>
+						<Prp name="value" type="S" value="SHELLDLL_DefView"/>
+					</Node>
+					<Node name="property51">
+						<Prp name="cookie" type="I" value="51"/>
+						<Prp name="local variable" type="S" value=""/>
+						<Prp name="property type" type="I" value="0"/>
+						<Prp name="type" type="I" value="5"/>
+						<Prp name="value" type="S" value="SysListView32"/>
+					</Node>
+					<Node name="property52">
+						<Prp name="cookie" type="I" value="52"/>
+						<Prp name="local variable" type="S" value=""/>
+						<Prp name="property type" type="I" value="0"/>
+						<Prp name="type" type="I" value="5"/>
+						<Prp name="value" type="S" value="FolderView"/>
+					</Node>
+					<Node name="property53">
+						<Prp name="cookie" type="I" value="53"/>
+						<Prp name="local variable" type="S" value=""/>
+						<Prp name="property type" type="I" value="0"/>
+						<Prp name="type" type="I" value="5"/>
+						<Prp name="value" type="S" value="ExploreWClass"/>
+					</Node>
+					<Node name="property54">
+						<Prp name="cookie" type="I" value="54"/>
+						<Prp name="local variable" type="S" value=""/>
+						<Prp name="property type" type="I" value="0"/>
+						<Prp name="type" type="I" value="5"/>
+						<Prp name="value" type="S" value="My Computer"/>
+					</Node>
+					<Node name="property55">
+						<Prp name="cookie" type="I" value="55"/>
+						<Prp name="local variable" type="S" value=""/>
+						<Prp name="property type" type="I" value="0"/>
+						<Prp name="type" type="I" value="5"/>
+						<Prp name="value" type="S" value="SHELLDLL_DefView"/>
+					</Node>
+					<Node name="property56">
+						<Prp name="cookie" type="I" value="56"/>
+						<Prp name="local variable" type="S" value=""/>
+						<Prp name="property type" type="I" value="0"/>
+						<Prp name="type" type="I" value="5"/>
+						<Prp name="value" type="S" value="SysListView32"/>
+					</Node>
+					<Node name="property57">
+						<Prp name="cookie" type="I" value="57"/>
+						<Prp name="local variable" type="S" value=""/>
+						<Prp name="property type" type="I" value="0"/>
+						<Prp name="type" type="I" value="5"/>
+						<Prp name="value" type="S" value="FolderView"/>
+					</Node>
+					<Node name="property6">
+						<Prp name="cookie" type="I" value="6"/>
+						<Prp name="local variable" type="S" value=""/>
+						<Prp name="property type" type="I" value="0"/>
+						<Prp name="type" type="I" value="5"/>
+						<Prp name="value" type="S" value="#32770"/>
+					</Node>
+					<Node name="property7">
+						<Prp name="cookie" type="I" value="7"/>
+						<Prp name="local variable" type="S" value=""/>
+						<Prp name="property type" type="I" value="0"/>
+						<Prp name="type" type="I" value="5"/>
+						<Prp name="value" type="S" value="Save As"/>
+					</Node>
+					<Node name="property8">
+						<Prp name="cookie" type="I" value="8"/>
+						<Prp name="local variable" type="S" value=""/>
+						<Prp name="property type" type="I" value="0"/>
+						<Prp name="type" type="I" value="5"/>
+						<Prp name="value" type="S" value="ComboBoxEx32"/>
+					</Node>
+					<Node name="property9">
+						<Prp name="cookie" type="I" value="9"/>
+						<Prp name="local variable" type="S" value=""/>
+						<Prp name="property type" type="I" value="0"/>
+						<Prp name="type" type="I" value="5"/>
+						<Prp name="value" type="S" value="ComboBox"/>
+					</Node>
+					<Prp name="name" type="S" value="Default Configuration"/>
+				</Node>
+				<Prp name="current" type="I" value="0"/>
+			</Node>
+			<Node name="typeinfo"/>
+			<Prp name="cookie" type="I" value="58"/>
+			<Prp name="name" type="S" value="NameMapping"/>
+			<Prp name="version" type="I" value="3"/>
+		</Node>
+		<Node name="folders">
+			<Node name="folders"/>
+		</Node>
+		<Node name="settings">
+			<Prp name="settingsversion" type="S" value="7.50"/>
+		</Node>
+		<Prp name="signature" type="S" value="{5DCBAC3B-D39C-497C-9BE8-744CBADD37AA}"/>
+		<Prp name="version" type="S" value="7.0"/>
+	</Node>
+</Nodes>
