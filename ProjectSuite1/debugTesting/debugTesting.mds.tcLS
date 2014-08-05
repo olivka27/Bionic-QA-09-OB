@@ -20,18 +20,12 @@
 <Nodes version="1">
 	<Node name="root">
 		<Node name="data">
-			<Node name="{673233b3-880b-4e94-83b2-11cebe9719bb}">
-				<Prp name="relpath" type="S" value="notepad OB\notepad OB.mds.tcLS"/>
-			</Node>
-			<Node name="{9e84a9c4-d870-4fba-ae51-692d13227eef}">
-				<Prp name="relpath" type="S" value="debugTesting\debugTesting.mds.tcLS"/>
-			</Node>
 			<Node name="logs">
-				<Prp name="key" type="S" value="{68ACA955-FF7B-4F89-B586-20463EA22952}"/>
-				<Prp name="relpath" type="S" value="..\ProjectSuite1.pjs\Log"/>
+				<Prp name="key" type="S" value="{C4626065-93DF-4698-86BA-079133330030}"/>
+				<Prp name="relpath" type="S" value="Log"/>
 			</Node>
 			<Node name="variables"/>
 		</Node>
-		<Prp name="signature" type="S" value="{71078212-FAEB-4856-A901-B237C89E6B5C}"/>
+		<Prp name="signature" type="S" value="{49FC0C30-9EF7-4DBD-97A8-B7A00E79A2AF}"/>
 	</Node>
 </Nodes>
