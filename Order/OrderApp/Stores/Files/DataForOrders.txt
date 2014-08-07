@@ -1,0 +1,6 @@
+Customer, Street, City, State, Zip, Card
+Oksana, Haharyna, Chikago, CA, 1234, 1111-1111-1111-1111, Visa, MyMoney, Galina
+Larisa, Gogolya, Santa-Rosa, CA, 1235, 2222-2222-2222-2222, MasterCard, MyMoney, Nadya
+Olesya, Pushkina, Santa-Monica, CA, 1236, 3333-3333-3333-3333, Visa, MyMoney, Lyubov
+Nastya, Pushkina, Santa-Barbara, CA, 1237, 4444-4444-4444-4444, MasterCard, FamilyAlbum, Oleg
+Katya, Hreshchatik, Kyiv, CA, 1238, 5555-5555-5555-5555-5555, MasterCard, FamilyAlbum, Sasha
